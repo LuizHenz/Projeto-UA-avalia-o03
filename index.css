@@ -25,7 +25,9 @@ body {
     align-items: center;
     width: 0%;
 }
-
+.hamburg {
+    display: none;
+}
 .logo {
     display: flex;
     height: 30px;
@@ -203,4 +205,58 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+    
+    
+    .opcoes{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .sub-list {
+        display: none;
+    }
+    .bot1 {
+        display: none;
+    }
+    .bot2{
+        display: none;
+    }
+    .hamburguer {
+        display: block;
+    }
+    .home{
+        height: 75vh;
+    }
+
+    #text1 {
+        text-align: center;
+    }
+    #text2 {
+        text-align: center;
+    }
+    #bot3 {
+        text-align: center;
+    }
+    .parteF{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ultima {
+        height: 90vh;
+    }
+    
+    footer {
+        justify-content: center;
+    }
+
+    footer ul {
+        border-bottom: 1px solid #2E4E73;
+    }
+
+    footer li {
+        padding: 10px 32px 10px;
+        display: flex;
+        align-items: center;
+    }
 }
