@@ -9,7 +9,8 @@ body {
 
 .menu {
     display: flex;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .opcoes {
@@ -33,7 +34,7 @@ body {
 .list {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 50vw;
     padding: 20px;
 }
 
@@ -51,7 +52,7 @@ body {
 }
 
 .botoes {
-    width: 20%;
+    width: 20vw;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -86,15 +87,17 @@ body {
 }
 
 .home {
-    width: 100%;
-    height: 92vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     background-image: url(./Imagens/back.png);
     background-repeat: no-repeat;
 }
 
 .inicio {
-    width: 60%;
-    height: 60%;
+    width: 60vw;
+    height: 60vh;
     padding: 267px;
 }
 
@@ -128,7 +131,7 @@ body {
 }
 
 .ultima {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #FFFFFF;
 }
