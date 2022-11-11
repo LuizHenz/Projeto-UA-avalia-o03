@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #043873;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    width: 0%;
+}
+
+.logo {
+    display: flex;
+    height: 30px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+
+.sub-list {
+    font-family: 'DM Sans';
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.select {
+    padding-left: 5vw;
+    color: aliceblue;
+}
+
+.botoes {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.bot1 {
+    font-family: 'Inter';
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+    height: 50px;
+    background: #FFE492;
+    border-radius: 8px;
+    border: none;
+    color: #043873;
+}
+
+.bot2 {
+    font-family: 'Inter';
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
+    height: 50px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.home {
+    width: 100%;
+    height: 92vh;
+    background-image: url(./Imagens/back.png);
+    background-repeat: no-repeat;
+}
+
+.inicio {
+    width: 60%;
+    height: 60%;
+    padding: 267px;
+}
+
+#text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 64px;
+    color: #FFFF
+}
+
+#text2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#bot3 {
+    font-family: 'Inter';
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    width: 227px;
+    height: 50px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ultima {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.parteF {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20vh;
+    gap: 4vw;
+}
+
+.imagem-final {
+    left: 40%;
+}
+
+#text3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+.text4 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+.bot4 {
+    padding: 20px 40px;
+    gap: 10px;
+    width: 186px;
+    height: 63px;
+    border: none;
+    color: #FFFFFF;
+    background: #4F9CF9;
+    border-radius: 6px;
+}
+.ultimaList{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    flex-direction: row;
+    display: flex;
+    gap: 40px;
+}
+.ultimaRoda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
